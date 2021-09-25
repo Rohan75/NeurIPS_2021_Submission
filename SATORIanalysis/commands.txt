@@ -1,0 +1,14 @@
+python MainLoop.py -m CNN4-ReLU -a relu -bn 0 -p 4 -ln 0 -lna 0 -t 10
+python MainLoop.py -m CNN4-ReLU-Norm -a relu -bn 1 -p 4 -ln 1 -lna 0 -t 10
+
+python MainLoop.py -m CNN4-Exp -a exp -bn 0 -p 4 -ln 0 -lna 0 -t 10
+python MainLoop.py -m CNN4-Exp-Norm -a exp -bn 1 -p 4 -ln 1 -lna 0 -t 10
+
+python MainLoop.py -m CNN20-ReLU -a relu -bn 0 -p 20 -ln 0 -lna 0 -t 10
+python MainLoop.py -m CNN20-ReLU-Norm -a relu -bn 1 -p 20 -ln 1 -lna 0 -t 10
+
+python MainLoop.py -m CNN20-Exp -a exp -bn 0 -p 20 -ln 0 -lna 0 -t 10
+python MainLoop.py -m CNN20-Exp-Norm -a exp -bn 1 -p 20 -ln 1 -lna 0 -t 10
+
+python MainLoop.py -m SATORI -a softplus -bn 1 -p 6 -ln 0 -lna 1 -t 5
+python MainLoop.py -m SATORI -a softplus -bn 1 -p 6 -ln 0 -lna 1 -t 5 -st 6

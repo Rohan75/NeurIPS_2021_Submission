@@ -1,0 +1,2 @@
+python MainLoop.py -m SATORI -a softplus -bn 1 -p 6 -ln 0 -lna 1 -t 5
+python MainLoop.py -m SATORI -a softplus -bn 1 -p 6 -ln 0 -lna 1 -t 5 -st 6

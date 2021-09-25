@@ -1,0 +1,13 @@
+python MainLoop.py -b DATA2 -c CNN4-ReLU -v model -a relu -bn 0 -p 4 -ln 0 -lna 0 -t 1
+python MainLoop.py -b DATA2 -c CNN4-ReLU-Norm -v model -a relu -bn 1 -p 4 -ln 1 -lna 0 -t 1
+
+python MainLoop.py -b DATA2 -c CNN4-Exp -v model -a exp -bn 0 -p 4 -ln 0 -lna 0 -t 1
+python MainLoop.py -b DATA2 -c CNN4-Exp-Norm -v model -a exp -bn 1 -p 4 -ln 1 -lna 0 -t 1
+
+python MainLoop.py -b DATA2 -c CNN20-ReLU -v model -a relu -bn 0 -p 20 -ln 0 -lna 0 -t 1
+python MainLoop.py -b DATA2 -c CNN20-ReLU-Norm -v model -a relu -bn 1 -p 20 -ln 1 -lna 0 -t 1
+
+python MainLoop.py -b DATA2 -c CNN20-Exp -v model -a exp -bn 0 -p 20 -ln 0 -lna 0 -t 1
+python MainLoop.py -b DATA2 -c CNN20-Exp-Norm -v model -a exp -bn 1 -p 20 -ln 1 -lna 0 -t 1
+
+python MainLoop.py -b DATA2 -c SATORI -v model -a softplus -bn 1 -p 6 -ln 0 -lna 1 -t 1

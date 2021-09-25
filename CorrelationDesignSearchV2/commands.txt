@@ -1,0 +1,63 @@
+python MainLoop.py -b CNN10-ReLU -c Normalization -v None -a relu -bn 0 -p 10 -ln 0 -nh 8 -k 32 -lna 0 -d 512 -t 10
+python MainLoop.py -b CNN10-ReLU -c Normalization -v BatchNorm -a relu -bn 1 -p 10 -ln 0 -nh 8 -k 32 -lna 0 -d 512 -t 10
+python MainLoop.py -b CNN10-ReLU -c Normalization -v LayerNorm -a relu -bn 0 -p 10 -ln 1 -nh 8 -k 32 -lna 0 -d 512 -t 10
+python MainLoop.py -b CNN10-ReLU -c Normalization -v LayerNorm2 -a relu -bn 0 -p 10 -ln 0 -nh 8 -k 32 -lna 1 -d 512 -t 10
+python MainLoop.py -b CNN10-ReLU -c Normalization -v Norm -a relu -bn 1 -p 10 -ln 1 -nh 8 -k 32 -lna 0 -d 512 -t 10
+
+python MainLoop.py -b CNN10-ReLU -c Pool_Size -v 2 -a relu -bn 0 -p 2 -ln 1 -nh 8 -k 32 -lna 0 -d 512 -t 10
+python MainLoop.py -b CNN10-ReLU -c Pool_Size -v 4 -a relu -bn 0 -p 4 -ln 1 -nh 8 -k 32 -lna 0 -d 512 -t 10
+python MainLoop.py -b CNN10-ReLU -c Pool_Size -v 10 -a relu -bn 0 -p 10 -ln 1 -nh 8 -k 32 -lna 0 -d 512 -t 10
+python MainLoop.py -b CNN10-ReLU -c Pool_Size -v 20 -a relu -bn 0 -p 20 -ln 1 -nh 8 -k 32 -lna 0 -d 512 -t 10
+python MainLoop.py -b CNN10-ReLU -c Pool_Size -v 40 -a relu -bn 0 -p 40 -ln 1 -nh 8 -k 32 -lna 0 -d 512 -t 10
+
+python MainLoop.py -b CNN10-ReLU -c Attention_Heads -v 1 -a relu -bn 0 -p 10 -ln 1 -nh 1 -k 32 -lna 0 -d 512 -t 10
+python MainLoop.py -b CNN10-ReLU -c Attention_Heads -v 2 -a relu -bn 0 -p 10 -ln 1 -nh 2 -k 32 -lna 0 -d 512 -t 10
+python MainLoop.py -b CNN10-ReLU -c Attention_Heads -v 4 -a relu -bn 0 -p 10 -ln 1 -nh 4 -k 32 -lna 0 -d 512 -t 10
+python MainLoop.py -b CNN10-ReLU -c Attention_Heads -v 8 -a relu -bn 0 -p 10 -ln 1 -nh 8 -k 32 -lna 0 -d 512 -t 10
+python MainLoop.py -b CNN10-ReLU -c Attention_Heads -v 16 -a relu -bn 0 -p 10 -ln 1 -nh 16 -k 32 -lna 0 -d 512 -t 10
+
+python MainLoop.py -b CNN10-ReLU -c Vector_Size -v 16 -a relu -bn 0 -p 10 -ln 1 -nh 8 -k 16 -lna 0 -d 512 -t 10
+python MainLoop.py -b CNN10-ReLU -c Vector_Size -v 32 -a relu -bn 0 -p 10 -ln 1 -nh 8 -k 32 -lna 0 -d 512 -t 10
+python MainLoop.py -b CNN10-ReLU -c Vector_Size -v 64 -a relu -bn 0 -p 10 -ln 1 -nh 8 -k 64 -lna 0 -d 512 -t 10
+python MainLoop.py -b CNN10-ReLU -c Vector_Size -v 128 -a relu -bn 0 -p 10 -ln 1 -nh 8 -k 128 -lna 0 -d 512 -t 10
+python MainLoop.py -b CNN10-ReLU -c Vector_Size -v 256 -a relu -bn 0 -p 10 -ln 1 -nh 8 -k 256 -lna 0 -d 512 -t 10
+
+python MainLoop.py -b CNN10-ReLU -c Dense_Size -v 64 -a relu -bn 0 -p 10 -ln 1 -nh 8 -k 32 -lna 0 -d 64 -t 10
+python MainLoop.py -b CNN10-ReLU -c Dense_Size -v 128 -a relu -bn 0 -p 10 -ln 1 -nh 8 -k 32 -lna 0 -d 128 -t 10
+python MainLoop.py -b CNN10-ReLU -c Dense_Size -v 256 -a relu -bn 0 -p 10 -ln 1 -nh 8 -k 32 -lna 0 -d 256 -t 10
+python MainLoop.py -b CNN10-ReLU -c Dense_Size -v 512 -a relu -bn 0 -p 10 -ln 1 -nh 8 -k 32 -lna 0 -d 512 -t 10
+python MainLoop.py -b CNN10-ReLU -c Dense_Size -v 1024 -a relu -bn 0 -p 10 -ln 1 -nh 8 -k 32 -lna 0 -d 1024 -t 10
+
+
+
+
+
+python MainLoop.py -b CNN10-Exp -c Normalization -v None -a exp -bn 0 -p 10 -ln 0 -nh 8 -k 32 -lna 0 -d 512 -t 10
+python MainLoop.py -b CNN10-Exp -c Normalization -v BatchNorm -a exp -bn 1 -p 10 -ln 0 -nh 8 -k 32 -lna 0 -d 512 -t 10
+python MainLoop.py -b CNN10-Exp -c Normalization -v LayerNorm -a exp -bn 0 -p 10 -ln 1 -nh 8 -k 32 -lna 0 -d 512 -t 10
+python MainLoop.py -b CNN10-Exp -c Normalization -v LayerNorm2 -a exp -bn 0 -p 10 -ln 0 -nh 8 -k 32 -lna 1 -d 512 -t 10
+python MainLoop.py -b CNN10-Exp -c Normalization -v Norm -a exp -bn 1 -p 10 -ln 1 -nh 8 -k 32 -lna 0 -d 512 -t 10
+
+python MainLoop.py -b CNN10-Exp -c Pool_Size -v 2 -a exp -bn 0 -p 2 -ln 1 -nh 8 -k 32 -lna 0 -d 512 -t 10
+python MainLoop.py -b CNN10-Exp -c Pool_Size -v 4 -a exp -bn 0 -p 4 -ln 1 -nh 8 -k 32 -lna 0 -d 512 -t 10
+python MainLoop.py -b CNN10-Exp -c Pool_Size -v 10 -a exp -bn 0 -p 10 -ln 1 -nh 8 -k 32 -lna 0 -d 512 -t 10
+python MainLoop.py -b CNN10-Exp -c Pool_Size -v 20 -a exp -bn 0 -p 20 -ln 1 -nh 8 -k 32 -lna 0 -d 512 -t 10
+python MainLoop.py -b CNN10-Exp -c Pool_Size -v 40 -a exp -bn 0 -p 40 -ln 1 -nh 8 -k 32 -lna 0 -d 512 -t 10
+
+python MainLoop.py -b CNN10-Exp -c Attention_Heads -v 1 -a exp -bn 0 -p 10 -ln 1 -nh 1 -k 32 -lna 0 -d 512 -t 10
+python MainLoop.py -b CNN10-Exp -c Attention_Heads -v 2 -a exp -bn 0 -p 10 -ln 1 -nh 2 -k 32 -lna 0 -d 512 -t 10
+python MainLoop.py -b CNN10-Exp -c Attention_Heads -v 4 -a exp -bn 0 -p 10 -ln 1 -nh 4 -k 32 -lna 0 -d 512 -t 10
+python MainLoop.py -b CNN10-Exp -c Attention_Heads -v 8 -a exp -bn 0 -p 10 -ln 1 -nh 8 -k 32 -lna 0 -d 512 -t 10
+python MainLoop.py -b CNN10-Exp -c Attention_Heads -v 16 -a exp -bn 0 -p 10 -ln 1 -nh 16 -k 32 -lna 0 -d 512 -t 10
+
+python MainLoop.py -b CNN10-Exp -c Vector_Size -v 16 -a exp -bn 0 -p 10 -ln 1 -nh 8 -k 16 -lna 0 -d 512 -t 10
+python MainLoop.py -b CNN10-Exp -c Vector_Size -v 32 -a exp -bn 0 -p 10 -ln 1 -nh 8 -k 32 -lna 0 -d 512 -t 10
+python MainLoop.py -b CNN10-Exp -c Vector_Size -v 64 -a exp -bn 0 -p 10 -ln 1 -nh 8 -k 64 -lna 0 -d 512 -t 10
+python MainLoop.py -b CNN10-Exp -c Vector_Size -v 128 -a exp -bn 0 -p 10 -ln 1 -nh 8 -k 128 -lna 0 -d 512 -t 10
+python MainLoop.py -b CNN10-Exp -c Vector_Size -v 256 -a exp -bn 0 -p 10 -ln 1 -nh 8 -k 256 -lna 0 -d 512 -t 10
+
+python MainLoop.py -b CNN10-Exp -c Dense_Size -v 64 -a exp -bn 0 -p 10 -ln 1 -nh 8 -k 32 -lna 0 -d 64 -t 10
+python MainLoop.py -b CNN10-Exp -c Dense_Size -v 128 -a exp -bn 0 -p 10 -ln 1 -nh 8 -k 32 -lna 0 -d 128 -t 10
+python MainLoop.py -b CNN10-Exp -c Dense_Size -v 256 -a exp -bn 0 -p 10 -ln 1 -nh 8 -k 32 -lna 0 -d 256 -t 10
+python MainLoop.py -b CNN10-Exp -c Dense_Size -v 512 -a exp -bn 0 -p 10 -ln 1 -nh 8 -k 32 -lna 0 -d 512 -t 10
+python MainLoop.py -b CNN10-Exp -c Dense_Size -v 1024 -a exp -bn 0 -p 10 -ln 1 -nh 8 -k 32 -lna 0 -d 1024 -t 10
